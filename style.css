@@ -1,0 +1,179 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+  list-style: none;
+  padding-left: 5px;
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+.bar {
+  background-color: black;
+  padding: 7px;
+  border-top: solid 1px #cdcdcd;
+  border-bottom: solid 1px #cdcdcd;
+}
+.content {
+  max-width: 1820px;
+  margin: auto;
+  grid-gap: 3rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-areas: "sidebar main anchors";
+  grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+footer {
+  min-height: 100px;
+  border-top: solid 1px #cdcdcd;
+  text-align: center;
+}
+.anchors {
+  border-left: solid 1px #cdcdcd;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+.anchors ul li:hover {
+  list-style: circle;
+}
+.anchors li {
+  padding: 4px;
+}
+
+.sidebar {
+  padding: 12px;
+  border-right: solid 1px #cdcdcd;
+  border-radius: 5px;
+}
+.side figure {
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+}
+
+#form {
+  display: flex;
+  justify-content: end;
+}
+
+header {
+  display: flex;
+  height: 100px;
+}
+
+.pes {
+  padding-left: 1300px;
+}
+
+#pesquisar {
+  margin-top: 1px;
+  border: solid 1px;
+  height: 40px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+#botão {
+  padding: 12px;
+  cursor: pointer;
+  border: solid 1px;
+  height: 40px;
+  border-radius: 6px;
+}
+
+.card {
+  display: flex;
+}
+
+table {
+  padding: 12px;
+  align-items: center;
+  border: solid 1px;
+  width: 280px;
+}
+table tr th {
+  padding: 15px;
+}
+
+iframe {
+  border-radius: 12px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+/* iamgens jogabilidade */
+.img-1 {
+  display: flex;
+  position: absolute;
+  padding-left: 800px;
+  padding-top: 270px;
+}
+.img-2 {
+  display: flex;
+  position: absolute;
+  padding-left: 850px;
+  padding-top: 173px;
+}
+.img-3 {
+  display: flex;
+  position: absolute;
+  padding-left: 850px;
+  padding-top: 104px;
+}
+.img-4 {
+  display: flex;
+  position: absolute;
+  padding-left: 850px;
+  padding-top: 145px;
+}
+.img-5 {
+  display: flex;
+  position: absolute;
+  padding-left: 850px;
+  padding-top: 104px;
+}
+.img-6 {
+  display: flex;
+  position: absolute;
+  padding-left: 850px;
+  padding-top: 190px;
+}
+#fnaf1 {
+  border-radius: 12px;
+}
+/* Are principal */
+p {
+  text-align: justify;
+}
+
+#list {
+  list-style: inside;
+}
+#elenco {
+  padding-left: 50px;
+  list-style: disc;
+}
+
+#elenco li {
+  padding: 4px;
+}
+
+#filmei {
+  position: absolute;
+  padding-top: 135px;
+  padding-left: 990px;
+}
+#filmei img {
+  border-radius: 12px;
+  margin: 0;
+}
