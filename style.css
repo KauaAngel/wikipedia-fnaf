@@ -114,7 +114,7 @@ iframe {
 /* iamgens jogabilidade */
 .img-1 {
   display: flex;
-  position: relative;
+  position: absolute;
   padding-left: 800px;
   padding-top: 270px;
 }
